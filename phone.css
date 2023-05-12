@@ -1,0 +1,178 @@
+@media (max-width: 900px) {
+    html {
+        font-size: 55%;
+    }
+
+    #main .logo {
+        display: none;
+    }
+
+    #gif-container>.gif-box-1>img {
+        height: 22rem;
+    }
+
+    #gif-container>.gif-box-2>img {
+        height: 49rem;
+    }
+
+    #credit>.credit-container .para {
+        font-weight: 500;
+        font-size: 33px;
+    }
+
+    #credit .credit-container>.credit-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 6rem 8rem;
+    }
+
+
+    .credit-details>.creditList {
+        width: 45%;
+    }
+
+
+    #credit .credit-container>.credit-section>.credit-details {
+        width: 100%;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        position: relative;
+    }
+
+    .credit-details>.credit-list-3 {
+        position: absolute;
+        left: 0px;
+        top: 49px;
+    }
+
+    #last-bottom .second-bottom-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .second-bottom-section .second-bottomList {
+        width: 66.66%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    html {
+        font-size: 53%;
+    }
+
+    #footer>.newsletter-column {
+        flex-direction: column;
+    }
+
+    .newsletter-column .newsHeading {
+        width: 72%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-column>.form-container>.form-section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+
+    #gif-container>.gif-box-2>img {
+        height: 39rem;
+    }
+
+    .award-section>.award-details {
+        margin-left: 10rem;
+
+    }
+
+
+
+}
+
+@media (max-width: 630px) {
+    html {
+        font-size: 50%;
+    }
+
+    #gif-container>.gif-box-1>img {
+        height: 18rem;
+    }
+
+    #gif-container>.gif-box-2>img {
+        height: 29rem;
+    }
+
+    .newsletter-column>.form-container {
+        width: 334px;
+    }
+
+
+}
+
+@media (max-width: 490px) {
+    html {
+        font-size: 48%;
+    }
+
+    .home>.text-box h1 {
+        font-size: 3.8rem;
+    }
+
+    #gif-container>.gif-box-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #gif-container>.gif-box-1>img {
+        height: 18rem;
+        width: 100%;
+    }
+
+    #gif-container>.gif-box-2>img {
+        height: 22rem;
+    }
+
+    #execution-container>.container>.gif-box-1 {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #execution-container>.container>.gif-box-1>img {
+        width: 34rem;
+        padding: 0 15px;
+    }
+
+
+
+    #main .bottom {
+        padding: 5rem 0;
+        height: 7rem;
+    }
+
+    .bottom>.bottom-ul>.bottom-list {
+        font-size: 2rem;
+    }
+
+
+    .credit-details>.credit-list-1>.list-1-heading>h1 {
+        font-size: 1.8rem;
+    }
+
+    .award-section>.award-details {
+        margin-left: 5rem;
+
+    }
+
+    .newsletter-column>.form-container {
+        width: 294px;
+    }
+
+    .footer-end>.paraList>li {
+        font-size: 1.1rem;
+    }
+}
