@@ -23,9 +23,6 @@ navbar.addEventListener("click", function () {
     }
 })
 
-// Animation on scroll 
-AOS.init();
-
 // window.location.reload(true)
 window.addEventListener("load", function () {
     window.scrollTo(0, 0);
